@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot.. 1`] = `
+<styled.div>
+  <styled.img
+    alt="Home and Away"
+    src="tile.jpg"
+  />
+  <styled.div>
+    <styled.img
+      alt="Seven"
+      src="logo.png"
+    />
+    <styled.h2>
+      Home and Away
+    </styled.h2>
+  </styled.div>
+</styled.div>
+`;
