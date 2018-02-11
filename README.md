@@ -2,6 +2,8 @@
 
 This is a responsive application using React and [Styled Components](https://styled-components.com/).
 
+The application can be viewed at [https://mkalpana.github.io/kn-react-take-home/](https://mkalpana.github.io/kn-react-take-home/).
+
 ## Required Software
   - Git
   - Node v8.9.4
@@ -22,9 +24,15 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.
 
+### `npm run deploy`
+
+Use this command, to deploy the application to github pages.
+
 ### `npm run build`
 
 Use this command, to generate production assets.
+
+Note: "homepage" property in `package.json` is specified for [GitHub Pages](https://pages.github.com/). It has to be updated accordingly for deploying the application to other servers.
 
 ### `npm run flow`
 
