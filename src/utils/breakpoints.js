@@ -4,6 +4,7 @@ import { css } from 'styled-components';
 const sizes = {
   desktop: 991,
   tablet: 767,
+  phoneLarge: 479,
   phone: 321
 };
 
