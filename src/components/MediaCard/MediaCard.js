@@ -20,6 +20,13 @@ const Image = styled.img`
   border: 1em solid #010101;
   box-sizing: border-box;
   width: 768px;
+  
+  ${media.tablet`
+    width: 100%;
+  `}
+  ${media.phone`
+    width: 100%;
+  `}
 `;
 
 const Title = styled.div`
@@ -31,18 +38,42 @@ const Title = styled.div`
   background: rgba(24, 24, 24, 0.5);
   width: 768px;
   box-sizing: border-box;
+  
+  ${media.tablet`
+    width: 100%;
+  `}
+  ${media.phone`
+    width: 100%;
+  `}
 `;
 
 const Logo = styled.img`
   margin: 0 1em 0 1.5em;
   width: 100px;
   height: 100px;
+  
+  ${media.tablet`
+    width: 42px;
+    height: 42px;
+  `}
+  ${media.phone`
+    margin: 0 0.75em 0 1.5em;
+    width: 32px;
+    height: 32px;
+  `}
 `;
 
 const Description = styled.h2`
   font-size: 48px;
   font-weight: 500;
   color: white;
+  
+  ${media.tablet`
+    font-size: 20px;
+  `}
+  ${media.phone`
+    font-size: 16px;
+  `}
 `;
 
 const MediaCard = (props: Props) => {
