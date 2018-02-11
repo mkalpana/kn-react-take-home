@@ -1,3 +1,4 @@
+// @flow
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -12,5 +13,5 @@ injectGlobal`
     background-color: #0E0E0E;
   }
 `;
-
-ReactDOM.render(<App />, document.getElementById('root'));
+const rootElem: any = document.getElementById('root');
+ReactDOM.render(<App />, rootElem);
