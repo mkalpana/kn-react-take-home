@@ -1,5 +1,7 @@
 # km-react-take-home
 
+[![Build Status](https://travis-ci.org/mkalpana/kn-react-take-home.svg?branch=master)](https://travis-ci.org/mkalpana/kn-react-take-home)
+
 This is a responsive application using React and [Styled Components](https://styled-components.com/).
 
 The application can be viewed at [https://mkalpana.github.io/kn-react-take-home/](https://mkalpana.github.io/kn-react-take-home/).
